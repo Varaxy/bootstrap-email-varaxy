@@ -1,3 +1,32 @@
-.my-col {
-    border: 3px solid red;
+body {
+    padding: 10px;
 }
+.email-heading {
+    display: flex; 
+    justify-content: center;
+    color: blue;
+}
+.search-bar {
+    margin: 10px;
+}
+.search-btn {
+    margin-right: 20px;
+}
+.message-card {
+    color: black;
+    border: 2px solid black;
+    margin: 5px;
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .btn-group{
+      display: block;
+    }
+
+    .btn-group .btn {
+      display: block;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
