@@ -4,7 +4,7 @@ body {
 .email-heading {
     display: flex; 
     justify-content: center;
-    color: blue;
+    color: rgb(127, 224, 135);
 }
 .search-bar {
     margin: 10px;
@@ -18,7 +18,26 @@ body {
     margin: 5px;
     display: flex;
 }
+.btn-primary {
+    border-color: black;
+    color: black;
+    background-color: rgb(104, 250, 129);
+}
 
+.custom-height{
+    min-height: 60vh;
+}
+.compose-button {
+    background: rgb(104, 250, 129);
+    color: black;
+    margin-bottom: 5px;
+}
+.reply-button {
+   background: white;
+    color:aqua;
+    border-color: aqua;
+
+}
 @media (min-width: 768px) {
     .btn-group{
       display: block;
@@ -30,3 +49,4 @@ body {
       margin-bottom: 5px;
     }
   }
+
