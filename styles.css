@@ -16,7 +16,7 @@ body {
     color: black;
     border: 2px solid black;
     margin: 5px;
-    display: flex;
+    
 }
 .btn-primary {
     border-color: black;
