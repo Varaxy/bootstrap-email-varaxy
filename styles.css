@@ -9,14 +9,9 @@ body {
 .search-bar {
     margin: 10px;
 }
-.search-btn {
-    margin-right: 20px;
-}
 .message-card {
     color: black;
     border: 2px solid black;
-    margin: 5px;
-    
 }
 .btn-primary {
     border-color: black;
@@ -30,19 +25,17 @@ body {
 .compose-button {
     background: rgb(104, 250, 129);
     color: black;
-    margin-bottom: 5px;
+    margin: 5px;
 }
-.reply-button {
+.reply-btn {
    background: white;
-    color:aqua;
-    border-color: aqua;
+   color:aqua;
+   border-color: aqua;
+   margin: 5px;
 
 }
 @media (min-width: 768px) {
-    .btn-group{
-      display: block;
-    }
-
+  
     .btn-group .btn {
       display: block;
       width: 100%;
